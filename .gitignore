@@ -43,3 +43,7 @@ src/main/resources/application-*.yml
 # Exclude local override files (if any)
 src/main/resources/application-local.properties
 src/main/resources/application-dev.yml
+
+application.properties
+.env
+*.local

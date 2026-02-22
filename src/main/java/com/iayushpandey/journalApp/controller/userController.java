@@ -39,7 +39,7 @@ public class userController {
         if(userInDB != null){
             userInDB.setUserName(userInDB.getUserName());
             userInDB.setPassword(userInDB.getPassword());
-//            return new ResponseEntity<>(userInDB, HttpStatus.OK);
+           return new ResponseEntity<>(userInDB, HttpStatus.OK);
         }
         return new ResponseEntity<>( HttpStatus.NO_CONTENT);
     }
